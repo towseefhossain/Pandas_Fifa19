@@ -17,9 +17,9 @@ if type == 'P': #code to output Pie Charts
 if type == 'H': #code to output Histograms
 	plt.hist(data[x])
 	plt.show()
-	print("The mean %s of players in FIFA 19 is %s" % x, data[x].mean())
-	print("The median %s of players in FIFA 19 is %s" % x, data[x].median())
-	print("Most players in FIFA 19 have a %s of %s" % x, data[x].mode()[0])
+	print("The mean %s of players in FIFA 19 is %s" % x, data[x].values.mean())
+	print("The median %s of players in FIFA 19 is %s" % x, data[x].values.median())
+	print("Most players in FIFA 19 have a %s of %s" % x, data[x].values.mode()[0])
 
 
 if type == 'S': #code to output Scatterplots
