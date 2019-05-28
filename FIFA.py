@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from re import sub
-from decimal import Decimal
 
 data = pd.read_csv('data.csv') #reading the CSV Data File
 
