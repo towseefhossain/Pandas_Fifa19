@@ -4,4 +4,4 @@ A Data Science project using Pandas and Matplotlib to analyse correlations betwe
 
 <b> FIFA.py </b>
 
-The script produces a list of the different statistical characteristics of over 18000 players. Users can choose two fields and the scripts plots a scatterplot, and outputs whether or not there is a strong statistical (Pearson's) correlation between the two variables.
+The script produces a list of the different statistical characteristics of over 18000 players. Users can choose from a list of variables and visualization techniques to observe the trends in the variables across the players
